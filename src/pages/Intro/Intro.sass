@@ -1,0 +1,66 @@
+.slider
+  height: 100vh
+  border: 1px solid red
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+
+.slide
+  position: absolute
+  transition: .5s
+  overflow: hidden
+  width: calc(100% - 60px)
+  padding: 0 30px
+  height: 100vh
+  background-repeat: no-repeat
+  background-size: cover
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  p
+    font-style: normal
+    font-weight: 500
+    font-size: 14px
+    line-height: 22px
+    text-align: center
+    color: rgba(56, 79, 125, 0.8)
+    margin: 10px 0 20px
+
+  img
+    width: 212px
+    height: 212px
+  h1
+    font-weight: bold
+    font-size: 30px
+    line-height: 37px
+    text-align: center
+    margin: 20px 0
+    color: #384F7D
+  a
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 19px
+    text-align: center
+    text-decoration-line: underline
+    color: #445984
+
+.navSliderContainer
+  display: flex
+  justify-content: space-around
+  align-items: center
+  width: 100%
+  margin-top: 10px
+  margin-bottom: 20px
+
+.bullets
+  display: flex
+  width: 70px
+  justify-content: space-between
+
+.bullet
+  height: 12px
+  border-radius: 6px
+  background-color: #8EF15C

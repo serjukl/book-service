@@ -1,0 +1,41 @@
+.defaultInput
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  font-weight: bold
+  font-size: 12px
+  line-height: 14px
+  letter-spacing: 1px
+  text-transform: uppercase
+  margin-top: 5px
+  color: rgba(68, 89, 132, 0.3)
+  &:focus
+    svg
+      path
+        fill: #8EF15C
+  input
+    margin-top: 5px
+    font-weight: 500
+    font-size: 16px
+    line-height: 16px
+    color: rgba(56, 79, 125, 0.65)
+    outline: 0
+    background: #FFFFFF
+    border: 0
+    border-bottom: 2px solid #8EF15C
+    box-shadow: 0 2px 5px #DDEBDC
+    border-radius: 5px
+    padding: 5px
+    height: 40px
+    &::placeholder
+      color: #c6c6c6
+    &:focus
+      color: #384F7D
+      &::placeholder
+        color: #9bd278
+  .icon
+    position: absolute
+    height: 30px
+    width: 30px
+    right: 30px
+
